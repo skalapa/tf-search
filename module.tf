@@ -9,7 +9,7 @@ variable "client_secret" {
 // Modules
 module "search_service" {
   source  = "app.terraform.io/skalapa-azure/search-service/azurerm"
-  version = "0.0.2"
+  version = "0.0.3"
 
   client_secret = "${var.client_secret}"
   hosting_mode = "${var.search_service_hosting_mode}"
