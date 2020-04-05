@@ -1,6 +1,9 @@
 //--------------------------------------------------------------------
 // Variables
 variable "search_service_hosting_mode" {}
+variable "client_secret" {
+  description = "client secret"
+}
 
 //--------------------------------------------------------------------
 // Modules
